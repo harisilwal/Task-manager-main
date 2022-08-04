@@ -1,0 +1,21 @@
+nav {
+  background-color: hsl(213, 83%, 49%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+header {
+  padding: 25px 20px;
+  background-color: hsl(213, 83%, 49%);
+  color: white;
+  font-size: 28px;
+  font-family: cursive;
+}

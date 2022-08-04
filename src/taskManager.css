@@ -1,0 +1,41 @@
+.taskManager__container {
+  width: 95%;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.taskManager__container_inside {
+  width: 95%;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.taskManager__container_inside > button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  background-color: hsl(210, 12%, 15%);
+  cursor: pointer;
+}
+
+.taskManager__container > button:hover {
+  background-color: hsl(210, 12%, 25%);
+}
+
+.taskManager__container > button:active {
+  background-color: hsl(210, 12%, 15%);
+}
+
+.taskManager__tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-top: 0px;
+}
